@@ -58,8 +58,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
-
-DATABASES = {
+SQLITE = os.environ.get('SQLITE') == 'True'
+POSTGRESS_DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE', 'django.db.backends.sqlite3'),
         'NAME': os.getenv('POSTGRES_DB', 'django'),
@@ -70,6 +70,17 @@ DATABASES = {
     }
 }
 
+SQLITE_DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3'
+    }
+}
+
+if SQLITE:
+    DATABASES = SQLITE_DATABASES
+else:
+    DATABASES = POSTGRESS_DATABASES
 
 AUTH_PASSWORD_VALIDATORS = [
     {
