@@ -5,10 +5,11 @@
 
 Проект Kittygram предназначен для публикации фото котиков и только котиков, никаких собак.
 Чем милее котик - тем больше вы получите social credit!
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjN1OWcxNWd2YTJ3cmRob3JieTNndHBsaDI2ZDNoNnBzeGR4YWMzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EvN5Pe56MOPJY7JmHR/giphy.gif)
+
+[](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjN1OWcxNWd2YTJ3cmRob3JieTNndHBsaDI2ZDNoNnBzeGR4YWMzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EvN5Pe56MOPJY7JmHR/giphy.gif)
 
 ## Технологии
-![Python](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG8wOGVqNDV3ZTA2Z2pnYTFrY2hndms3ZHc2OW05MmIybDJqMHdvbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KAq5w47R9rmTuvWOWa/giphy.gif)
+[Python](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG8wOGVqNDV3ZTA2Z2pnYTFrY2hndms3ZHc2OW05MmIybDJqMHdvbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KAq5w47R9rmTuvWOWa/giphy.gif)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
